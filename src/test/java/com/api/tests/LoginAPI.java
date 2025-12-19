@@ -25,5 +25,11 @@ public class LoginAPI{
         System.out.println(response.asPrettyString());
         Assert.assertEquals(response.getStatusCode(), 200);
         LoginResponse loginResponse = response.as(LoginResponse.class);
+        System.out.println(loginResponse.getUsername());
+        System.out.println(loginResponse.getId());
+
+        Assert.assertNotNull(loginResponse.getToken());
+        Assert.assertEquals(loginResponse.getUsername(), "Mohini Bajaj");
+        Assert.assertEquals(loginResponse.getEmail(), "mohinibajajmb5@gmail.com");
     }
 }

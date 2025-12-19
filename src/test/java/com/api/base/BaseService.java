@@ -20,7 +20,7 @@ public class BaseService {
 //    }
 
     protected Response postRequest(Object payload, String endpoint) {
-        return given()
+        return  requestSpecification
                 .contentType(ContentType.JSON)
                 .body(payload)
                 .post(endpoint);

@@ -7,6 +7,16 @@ public class LoginResponse {
     private String token;
     private String type;
     private int id;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    private String email;
     private String username;
     private String password;
     private List<String> roles;
@@ -59,12 +69,17 @@ public class LoginResponse {
         this.roles = roles;
     }
 
+    public LoginResponse(String email) {
+        this.email = email;
+    }
+
     @Override
     public String toString() {
         return "LoginResponse{" +
                 "token='" + token + '\'' +
                 ", type='" + type + '\'' +
                 ", id=" + id +
+                ", email='" + email + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 ", roles=" + roles +
