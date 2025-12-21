@@ -1,9 +1,12 @@
 package com.api.base;
 
 import com.api.models.request.LoginRequest;
+import com.api.models.request.SignupRequest;
+import com.api.tests.SignUpAPI;
 import io.restassured.response.Response;
 
 import java.security.PublicKey;
+import java.util.HashMap;
 
 public class AuthService extends BaseService{
 
@@ -11,5 +14,15 @@ public class AuthService extends BaseService{
 
     public Response login(LoginRequest payload) {
        return postRequest(payload, BASE_PATH + "login");
+    }
+
+    public Response signUp(SignupRequest payload) {
+        return postRequest(payload, BASE_PATH + "signup");
+    }
+
+    public Response forgotPassword(String emailAddress ) {
+        HashMap <String, String> payload = new HashMap<String, String>();
+        payload.put("email", emailAddress);
+        return postRequest(payload, BASE_PATH + "forgot-password");
     }
 }
