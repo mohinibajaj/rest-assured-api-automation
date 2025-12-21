@@ -9,8 +9,11 @@ import io.restassured.mapper.ObjectMapper;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import org.testng.Assert;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+
+@Listeners(com.api.listeners.TestListeners.class)
 public class LoginAPI{
 
     @Test(description = "verify login")
