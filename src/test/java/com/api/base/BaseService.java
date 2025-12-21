@@ -19,6 +19,10 @@ public class BaseService {
 //      return  requestSpecification.contentType(ContentType.JSON).body(payload).post(endpoint);
 //    }
 
+    protected void setAuthToken(String token){
+           requestSpecification.header("Authorization", "Bearer "+token);
+    }
+
     protected Response postRequest(Object payload, String endpoint) {
         return  requestSpecification
                 .contentType(ContentType.JSON)
@@ -26,8 +30,15 @@ public class BaseService {
                 .post(endpoint);
     }
 
-    protected Response getRequest(String payload, String endpoint){
-        return  requestSpecification.contentType(ContentType.JSON).body(payload).get(endpoint);
+    protected Response putRequest(Object payload, String endpoint) {
+        return  requestSpecification
+                .contentType(ContentType.JSON)
+                .body(payload)
+                .put(endpoint);
+    }
+
+    protected Response getRequest(String endpoint){
+        return  requestSpecification.get(endpoint);
     }
 
 }
