@@ -28,15 +28,15 @@ public class LoggingFilters implements Filter {
 
      // create two methods to log request and repsonse to print logs
     public  void logRequest(FilterableRequestSpecification requestSpec){
-        logger.info("BASE URI:" + requestSpec.getBaseUri() );
-        logger.info("REQUEST HEADERS" + requestSpec.getHeaders() );
-        logger.info("REQUEST PAYLOAD:" + requestSpec.getBody() );
+        logger.info("BASE URI: " + requestSpec.getBaseUri());
+        logger.info("BASE PATH: " + requestSpec.getBasePath());
+        logger.info("REQUEST HEADERS:   " + requestSpec.getHeaders());
+        logger.info("REQUEST PAYLOAD: " + requestSpec.getBody());
     }
 
     public  void logResponse(Response response){
-        logger.info("STATUS CODE:" + response.getStatusCode() );
-        logger.info("RESPONSE HEADERS" + response.headers() );
-        logger.info("RESPONSE BODY:" + response.getBody().prettyPrint() );
+        logger.info("STATUS CODE: " + response.getStatusCode() );
+        logger.info("RESPONSE HEADERS: " + response.headers() );
+        logger.info("RESPONSE BODY: " + response.getBody().prettyPrint() );
     }
-
 }

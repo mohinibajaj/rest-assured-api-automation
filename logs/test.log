@@ -217,3 +217,874 @@ Date=Mon, 22 Dec 2025 18:46:22 GMT
 Keep-Alive=timeout=60
 Connection=keep-alive
 00:16:22.733 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:User registered successfully!
+00:26:46.599 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:26:46.601 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:26:46.601 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+00:26:47.009 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:26:47.009 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 18:56:47 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:26:47.031 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0Mjk4MDcsImV4cCI6MTc2NjQzMzQwN30.uUF2NHeswyx_deerlvvUnfogxjtuMkzt_RKosIDHY8E",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:26:47.041 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:26:47.041 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0Mjk4MDcsImV4cCI6MTc2NjQzMzQwN30.uUF2NHeswyx_deerlvvUnfogxjtuMkzt_RKosIDHY8E
+Accept=*/*
+00:26:47.041 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+00:27:22.227 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:27:22.230 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 18:57:22 GMT
+Connection=close
+00:27:22.877 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+00:32:44.657 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:32:44.658 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:32:44.659 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+00:32:45.025 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:32:45.026 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:02:45 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:32:45.041 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzAxNjUsImV4cCI6MTc2NjQzMzc2NX0.yaSLY0hRnitp2mqbZy71ZYhit5vAhqzBmBZAwXnbptY",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:32:45.051 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:32:45.051 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzAxNjUsImV4cCI6MTc2NjQzMzc2NX0.yaSLY0hRnitp2mqbZy71ZYhit5vAhqzBmBZAwXnbptY
+Accept=*/*
+Content-Type=*/*; charset=ISO-8859-1
+00:32:45.051 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+00:33:20.211 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:33:20.214 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:03:20 GMT
+Connection=close
+00:33:20.751 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+00:37:00.822 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:37:00.824 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:37:00.825 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+00:37:01.184 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:37:01.184 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:07:01 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:37:01.205 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA0MjEsImV4cCI6MTc2NjQzNDAyMX0.sI8zfTOEc6hZUzOQ1VfIrsMFmhdVvrWUY-IRwRpl3qE",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:37:01.215 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:37:01.215 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA0MjEsImV4cCI6MTc2NjQzNDAyMX0.sI8zfTOEc6hZUzOQ1VfIrsMFmhdVvrWUY-IRwRpl3qE
+Accept=*/*
+Content-Type=*/*; charset=ISO-8859-1
+00:37:01.215 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+00:37:01.347 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:37:01.348 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:07:01 GMT
+Connection=close
+00:37:01.964 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+00:42:20.675 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:42:20.677 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:42:20.677 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+00:42:21.064 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:42:21.065 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:12:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:42:21.080 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA3NDEsImV4cCI6MTc2NjQzNDM0MX0.xdy1MxgQPQZNCNBEHW4rcziFSCSAIInqYPG9DXCSBAw",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:42:21.090 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:42:21.090 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA3NDEsImV4cCI6MTc2NjQzNDM0MX0.xdy1MxgQPQZNCNBEHW4rcziFSCSAIInqYPG9DXCSBAw
+Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+00:42:21.090 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+00:42:21.221 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:42:21.221 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:12:21 GMT
+Connection=close
+00:42:21.715 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+00:45:32.734 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:45:32.735 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:45:32.735 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+00:45:33.090 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:45:33.090 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:15:33 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:45:33.104 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA5MzMsImV4cCI6MTc2NjQzNDUzM30.v4ZLl8DS-pR7jZ1yDP8FGrIiXkWtFW4a_0gSYiTm_io",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+00:45:33.115 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:45:33.115 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzA5MzMsImV4cCI6MTc2NjQzNDUzM30.v4ZLl8DS-pR7jZ1yDP8FGrIiXkWtFW4a_0gSYiTm_io
+Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+00:45:33.115 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+00:45:33.245 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:45:33.245 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:15:33 GMT
+Connection=close
+00:45:33.852 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:06:10.932 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:06:10.934 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+01:06:10.934 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:06:11.325 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+01:06:11.325 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:36:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:06:11.341 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzIxNzEsImV4cCI6MTc2NjQzNTc3MX0.4aIelhDPH6jsriYlGtzDbxS6IipJxQWFXMsowSRinuM",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:06:11.360 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:06:11.361 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzIxNzEsImV4cCI6MTc2NjQzNTc3MX0.4aIelhDPH6jsriYlGtzDbxS6IipJxQWFXMsowSRinuM
+Accept=application/json, application/javascript, text/javascript, text/json
+Content-Type=application/json
+01:06:11.361 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+01:06:11.513 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+01:06:11.513 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:36:11 GMT
+Connection=close
+01:06:12.029 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:10:55.048 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:10:55.050 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+01:10:55.050 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:10:55.435 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+01:10:55.435 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:40:55 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:10:56.094 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI0NTUsImV4cCI6MTc2NjQzNjA1NX0.EJYqpjBfUspkVFwVSGHrmcW30zQVsgcCwZeJ2SFM73A",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:10:56.112 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:10:56.113 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI0NTUsImV4cCI6MTc2NjQzNjA1NX0.EJYqpjBfUspkVFwVSGHrmcW30zQVsgcCwZeJ2SFM73A
+Accept=*/*
+Content-Type=application/json
+01:10:56.113 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+01:10:56.278 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+01:10:56.278 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:40:56 GMT
+Connection=close
+01:10:56.782 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:13:48.285 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:13:48.286 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+01:13:48.286 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:13:48.635 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+01:13:48.635 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:43:48 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:13:48.654 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI2MjgsImV4cCI6MTc2NjQzNjIyOH0.9a_Ba9fEEqjJIXZK_npmQbGb000tHpEzrBqoUQRKo2A",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:13:48.666 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:13:48.666 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI2MjgsImV4cCI6MTc2NjQzNjIyOH0.9a_Ba9fEEqjJIXZK_npmQbGb000tHpEzrBqoUQRKo2A
+Accept=*/*
+Content-Type=application/json
+01:13:48.666 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+01:13:48.801 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+01:13:48.801 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:43:48 GMT
+Connection=close
+01:13:49.383 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:18:21.425 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:18:21.427 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+01:18:21.427 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:18:21.803 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+01:18:21.803 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:48:21 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:18:21.818 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI5MDEsImV4cCI6MTc2NjQzNjUwMX0.myqliJ-1Rz6OzVcfo5e0eyb0idLo0XND-4dlIMYoqDk",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:18:21.829 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+01:18:21.829 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAuthorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzI5MDEsImV4cCI6MTc2NjQzNjUwMX0.myqliJ-1Rz6OzVcfo5e0eyb0idLo0XND-4dlIMYoqDk
+Accept=*/*
+Content-Type=application/json
+01:18:21.829 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:null
+01:18:21.957 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+01:18:21.957 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSContent-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:48:22 GMT
+Connection=close
+01:18:22.483 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:<html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:21:52.030 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:21:52.031 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:21:52.031 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS: Accept=*/*
+Content-Type=application/json
+01:21:52.032 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:21:52.375 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:21:52.375 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:51:52 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:21:52.393 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMxMTIsImV4cCI6MTc2NjQzNjcxMn0.O-JOL1Tae4JqPykIwVNC0Lty3RCFfKADZR3IKrOG9ug",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:21:52.413 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:21:52.413 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:21:52.413 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS: Authorization:=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMxMTIsImV4cCI6MTc2NjQzNjcxMn0.O-JOL1Tae4JqPykIwVNC0Lty3RCFfKADZR3IKrOG9ug
+Accept=*/*
+Content-Type=application/json
+01:21:52.413 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:21:52.993 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 400
+01:21:52.993 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Content-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:51:52 GMT
+Connection=close
+01:21:53.589 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: <html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:23:49.301 [main] INFO  com.api.listeners.TestListeners - Test Suite Started
+01:23:49.311 [main] INFO  com.api.listeners.TestListeners - Test startedloginApi
+01:23:49.692 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:23:49.692 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:23:49.692 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:23:49.692 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:23:50.082 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:23:50.082 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:53:50 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:23:50.099 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMyMzAsImV4cCI6MTc2NjQzNjgzMH0.jhZ3v8n2jdz64OjyBPym9HSCMHzgf3oGI30T7WPcVZY",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:23:50.111 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
+01:23:50.112 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
+01:24:10.730 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:24:10.732 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:24:10.732 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:24:10.732 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:24:11.043 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:24:11.043 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:54:11 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:24:11.059 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMyNTEsImV4cCI6MTc2NjQzNjg1MX0.NlvvH2amdDotaXXGmJIYGeC-DOOkG_ZNbHIkyqtnTzA",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:24:11.070 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:24:11.070 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:24:11.070 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMyNTEsImV4cCI6MTc2NjQzNjg1MX0.NlvvH2amdDotaXXGmJIYGeC-DOOkG_ZNbHIkyqtnTzA
+Accept=*/*
+Content-Type=application/json
+01:24:11.070 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:24:11.209 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 400
+01:24:11.209 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Content-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:54:11 GMT
+Connection=close
+01:24:11.793 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: <html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:24:15.665 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:25:03.201 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:25:08.798 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:25:08.800 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:25:09.245 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:25:09.245 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:55:09 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:25:09.260 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMzMDksImV4cCI6MTc2NjQzNjkwOX0.vnv_b5NHSul6C1ADz3nlLYmcY7N6i9M2AmMy8Jidykw",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:25:09.270 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:25:09.270 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:25:09.270 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMzMDksImV4cCI6MTc2NjQzNjkwOX0.vnv_b5NHSul6C1ADz3nlLYmcY7N6i9M2AmMy8Jidykw
+Accept=*/*
+Content-Type=application/json
+01:25:09.270 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:25:09.399 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 400
+01:25:09.399 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Content-Type=text/html;charset=utf-8
+Content-Language=en
+Content-Length=435
+Date=Mon, 22 Dec 2025 19:55:09 GMT
+Connection=close
+01:25:09.881 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: <html lang="en">
+  <head>
+    <title>HTTP Status 400 – Bad Request</title>
+    <style type="text/css">body {font-family:Tahoma,Arial,sans-serif;} h1, h2, h3, b {color:white;background-color:#525D76;} h1 {font-size:22px;} h2 {font-size:16px;} h3 {font-size:14px;} p {font-size:12px;} a {color:black;} .line {height:1px;background-color:#525D76;border:none;}</style>
+  </head>
+  <body>
+    <h1>HTTP Status 400 – Bad Request</h1>
+  </body>
+</html>
+01:25:34.357 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:25:34.359 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:25:56.062 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:25:56.064 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:25:56.546 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:25:56.546 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:55:56 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:25:56.563 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMzNTYsImV4cCI6MTc2NjQzNjk1Nn0.7tSkpgFlKeWaWGoqusWKuCxxTKN8Zu_aFDeKpuK4oCg",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:25:56.574 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:25:56.574 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:26:34.996 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzMzNTYsImV4cCI6MTc2NjQzNjk1Nn0.7tSkpgFlKeWaWGoqusWKuCxxTKN8Zu_aFDeKpuK4oCg
+Accept=*/*
+Content-Type=application/json
+01:26:34.998 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:26:41.890 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:26:41.891 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:26:41.891 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:26:41.891 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:27:49.261 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:27:49.262 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:57:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:49.285 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzM0NjksImV4cCI6MTc2NjQzNzA2OX0.xH2m682GuqFgzes3xsVbKV54_8KakbwU3EDFKEqfX3Y",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:27:49.312 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:27:49.312 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:27:49.312 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzM0NjksImV4cCI6MTc2NjQzNzA2OX0.xH2m682GuqFgzes3xsVbKV54_8KakbwU3EDFKEqfX3Y
+Accept=*/*
+Content-Type=application/json
+01:27:49.312 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:27:49.455 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:27:49.455 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:57:49 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:27:49.456 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "firstName": "Mohini",
+    "lastName": "Bajaj",
+    "mobileNumber": "7065568760"
+}
+01:28:46.338 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:28:46.340 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:28:46.340 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+01:28:46.341 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+01:28:46.704 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:28:46.704 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:58:46 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:28:46.723 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzM1MjYsImV4cCI6MTc2NjQzNzEyNn0.1-p9UFPGeVuPDzlcemLlbdMMgYYfryYZKWSKzktU6vs",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+01:28:46.733 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+01:28:46.733 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+01:28:46.734 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Authorization=Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MzM1MjYsImV4cCI6MTc2NjQzNzEyNn0.1-p9UFPGeVuPDzlcemLlbdMMgYYfryYZKWSKzktU6vs
+Accept=*/*
+Content-Type=application/json
+01:28:46.734 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: null
+01:29:22.085 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+01:29:22.091 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 19:59:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+01:29:22.099 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "firstName": "Mohini",
+    "lastName": "Bajaj",
+    "mobileNumber": "7065568760"
+}

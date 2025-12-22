@@ -17,18 +17,21 @@ public class GetUserProfile {
     @Test(description = "get profile")
     public void getProfileAPI(){
 
-       AuthService authService = new AuthService();
-      Response response =  authService.login(new LoginRequest("Mohini Bajaj","Jatin2025@"));
 
-      LoginResponse loginResponse = response.as(LoginResponse.class);
-        System.out.println(loginResponse.getToken());
+        AuthService authService = new AuthService();
+        Response response =  authService.login(new LoginRequest("Mohini Bajaj","Jatin2025@"));
 
-      UserService userService = new UserService();
+         LoginResponse loginResponse = response.as(LoginResponse.class);
+        System.out.println("Print login token:"  +loginResponse.getToken());
 
-      response =  userService.getProfile(loginResponse.getToken());
+          UserService userService = new UserService();
+
+         response =  userService.getProfile(loginResponse.getToken());
+        System.out.println ("Response for get profile: " +  response.asPrettyString());
+//
         GetProfileResponse getProfileResponse = response.as(GetProfileResponse.class);
-
-        System.out.println ( getProfileResponse.getFirstName());
+        System.out.println ("User FirstName: " + getProfileResponse.getFirstName());
+        System.out.println ("User LastName: " + getProfileResponse.getLastName());
     }
 }
 

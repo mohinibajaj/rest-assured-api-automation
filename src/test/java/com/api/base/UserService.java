@@ -8,14 +8,12 @@ public class UserService extends BaseService {
 
     public Response getProfile(String token){
         setAuthToken(token);
-        return getRequest(BASE_PATH + "/profile");
+        return getRequest(BASE_PATH + "profile");
     }
 
-    public Response updateProfile(String token, Object payload){
+    public Response updateProfile(String token, Object payload) {
         setAuthToken(token);
-        return getRequest(BASE_PATH + "/profile");
+        return getRequest(BASE_PATH + "profile");
     }
-
-
-
 }
+
