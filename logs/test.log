@@ -1,0 +1,42 @@
+23:05:57.552 [main] INFO  com.api.listeners.TestListeners - Test Suite Started
+23:05:57.563 [main] INFO  com.api.listeners.TestListeners - Test startedloginApi
+23:05:58.319 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
+23:05:58.319 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
+23:21:06.104 [main] INFO  com.api.listeners.TestListeners - Test Suite Started
+23:21:06.113 [main] INFO  com.api.listeners.TestListeners - Test startedloginApi
+23:21:06.465 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+23:21:06.465 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+23:21:06.465 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"Mohini Bajaj","password":"Jatin2025@"}
+23:21:06.792 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+23:21:06.792 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 17:51:06 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+23:21:06.813 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0MjU4NjYsImV4cCI6MTc2NjQyOTQ2Nn0.PPkRUGBFliYj2EwlNs_4eqK61G4fqBBCJVY--BLlKw0",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+23:21:06.821 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
+23:21:06.821 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
