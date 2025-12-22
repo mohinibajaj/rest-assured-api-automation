@@ -40,3 +40,180 @@ Connection=keep-alive
 }
 23:21:06.821 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
 23:21:06.821 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
+00:01:00.015 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:01:00.016 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:01:00.016 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"mayank@gmail.com","password":"mayank","email":"mayank123","firstName":"0070878589","lastName":"mayank","mobileNumber":"agarwal"}
+00:01:35.351 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:500
+00:01:35.351 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 18:31:35 GMT
+Connection=close
+00:01:35.370 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "timestamp": "2025-12-22 18:31:35",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/signup",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:03:03.812 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:03:03.813 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:03:03.813 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"mayank@gmail.com","password":"mohini","email":"mayank123","firstName":"0070878589","lastName":"mayank","mobileNumber":"agarwal"}
+00:03:04.094 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:500
+00:03:04.094 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 18:33:04 GMT
+Connection=close
+00:03:04.107 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "timestamp": "2025-12-22 18:33:04",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/signup",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:04:12.121 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:04:12.122 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:04:12.122 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"mayank@gmail.com","password":"aasthaaa","email":"mayank123","firstName":"0070878589","lastName":"mayank","mobileNumber":"agarwal"}
+00:04:12.404 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:500
+00:04:12.404 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 18:34:12 GMT
+Connection=close
+00:04:12.425 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "timestamp": "2025-12-22 18:34:12",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/signup",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:07:00.564 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:07:00.566 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:07:00.566 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"mayank@gmail.com","password":"aasthaaa","email":"mayank123","firstName":"0070878589","lastName":"mayank","mobileNumber":"agarwal"}
+00:07:00.851 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:500
+00:07:00.851 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Mon, 22 Dec 2025 18:37:00 GMT
+Connection=close
+00:07:00.871 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:{
+    "timestamp": "2025-12-22 18:37:00",
+    "status": 500,
+    "error": "System Error",
+    "message": "An unexpected error occurred",
+    "path": "uri=/api/auth/signup",
+    "solution": "Please try again later or contact support",
+    "errorCode": "SYS_001"
+}
+00:16:04.786 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:16:04.789 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:16:04.789 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"aasthaaa","password":"mayank123","email":"mayank@gmail.com","firstName":"mayank","lastName":"agarwal","mobileNumber":"0070878589"}
+00:16:06.091 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:400
+00:16:06.091 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=31
+Date=Mon, 22 Dec 2025 18:46:06 GMT
+Connection=close
+00:16:06.100 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:Error: Email is already in use!
+00:16:22.368 [main] INFO  com.api.filters.LoggingFilters - BASE URI:http://64.227.160.186:8080
+00:16:22.369 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERSAccept=*/*
+Content-Type=application/json
+00:16:22.369 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD:{"username":"aasthaaa","password":"mayank123","email":"mayank1@gmail.com","firstName":"mayank","lastName":"agarwal","mobileNumber":"0070878589"}
+00:16:22.722 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE:200
+00:16:22.722 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERSVary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=text/plain;charset=UTF-8
+Content-Length=29
+Date=Mon, 22 Dec 2025 18:46:22 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+00:16:22.733 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY:User registered successfully!

@@ -12,11 +12,11 @@ public class SignUpAPI {
     public void SignUpAPITest(){
 
        SignupRequest signupRequest = new SignupRequest.Builder()
-        .username("mohini13")
-        .firstName("mohini")
-        .email("mohinibajajmb5@gmail.com")
-        .password("mohini123")
-        .lastName("bajaj")
+        .username("aasthaaa")
+        .firstName("mayank")
+        .email("mayank1@gmail.com")
+        .password("mayank123")
+        .lastName("agarwal")
         .mobileNumber("0070878589")
          .build();
 
