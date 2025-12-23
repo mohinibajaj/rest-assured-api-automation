@@ -18,7 +18,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -43,10 +42,11 @@ jobs:
        name: logs
        path: logs/
 
-     - name: Publish Test Report
-       if: always()
+    - name: Publish Test Report
+      if: always()
       uses: dorny/test-reporter@v1
       with:
         name: TestNG Results
         path: target/surefire-reports/junitreports/TEST-*.xml
         reporter: java-junit
+
