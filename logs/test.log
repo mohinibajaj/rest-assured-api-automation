@@ -1088,3 +1088,81 @@ Connection=keep-alive
     "lastName": "Bajaj",
     "mobileNumber": "7065568760"
 }
+13:26:19.315 [main] INFO  com.api.listeners.TestListeners - Test Suite Started
+13:26:19.325 [main] INFO  com.api.listeners.TestListeners - Test startedloginApi
+13:26:19.689 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+13:26:19.689 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+13:26:19.689 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+13:26:19.689 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+13:26:20.107 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+13:26:20.108 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 23 Dec 2025 07:56:20 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:26:20.125 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0NzY1ODAsImV4cCI6MTc2NjQ4MDE4MH0.MhqKSGUvUCOP7ZuIFabHRJ9xcAuCt2gZVyiNn2gpOeo",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:26:20.135 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
+13:26:20.150 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
+13:35:00.208 [main] INFO  com.api.listeners.TestListeners - Test Suite Started
+13:35:00.218 [main] INFO  com.api.listeners.TestListeners - Test startedloginApi
+13:35:00.575 [main] INFO  com.api.filters.LoggingFilters - BASE URI: http://64.227.160.186:8080
+13:35:00.575 [main] INFO  com.api.filters.LoggingFilters - BASE PATH: 
+13:35:00.575 [main] INFO  com.api.filters.LoggingFilters - REQUEST HEADERS:   Accept=*/*
+Content-Type=application/json
+13:35:00.575 [main] INFO  com.api.filters.LoggingFilters - REQUEST PAYLOAD: {"username":"Mohini Bajaj","password":"Jatin2025@"}
+13:35:36.042 [main] INFO  com.api.filters.LoggingFilters - STATUS CODE: 200
+13:35:36.043 [main] INFO  com.api.filters.LoggingFilters - RESPONSE HEADERS: Vary=Origin
+Vary=Access-Control-Request-Method
+Vary=Access-Control-Request-Headers
+Access-Control-Allow-Origin=https://swift.techwithjatin.com
+Access-Control-Allow-Methods=GET, POST, PUT, DELETE, OPTIONS
+Access-Control-Max-Age=3600
+Access-Control-Allow-Headers=Authorization, Content-Type, Accept
+Access-Control-Allow-Credentials=true
+X-Content-Type-Options=nosniff
+X-XSS-Protection=0
+Cache-Control=no-cache, no-store, max-age=0, must-revalidate
+Pragma=no-cache
+Expires=0
+X-Frame-Options=DENY
+Content-Type=application/json
+Transfer-Encoding=chunked
+Date=Tue, 23 Dec 2025 08:05:36 GMT
+Keep-Alive=timeout=60
+Connection=keep-alive
+13:35:36.083 [main] INFO  com.api.filters.LoggingFilters - RESPONSE BODY: {
+    "token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJNb2hpbmkgQmFqYWoiLCJpYXQiOjE3NjY0NzcxMzYsImV4cCI6MTc2NjQ4MDczNn0.pwOMfo6PumbNJSjLj43-1ZdC0NQKwz0v7Y0Hqv8EJ3c",
+    "type": "Bearer",
+    "id": 3477,
+    "username": "Mohini Bajaj",
+    "email": "mohinibajajmb5@gmail.com",
+    "roles": [
+        "ROLE_USER"
+    ]
+}
+13:35:36.095 [main] INFO  com.api.listeners.TestListeners - Test passedloginApi
+13:35:36.150 [main] INFO  com.api.listeners.TestListeners - Test Suite Completed
